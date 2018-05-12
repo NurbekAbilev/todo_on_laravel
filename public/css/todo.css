@@ -1,0 +1,92 @@
+html{
+    background-color:#4286f4;
+}
+
+.content{
+    margin-top:100px;
+}
+
+.todo{
+    width:800px;
+    text-align: center;
+    border:1px solid black;
+    margin:0 auto;
+    border-radius:20px;
+    padding:20px;
+}
+
+.todo h1{
+    color:#b8d1f9;
+}
+
+.todo input[type="text"]{
+    width:500px;
+    margin-top:20px;
+    height:30px;
+    font-size:150%;
+    display:block;
+    margin:0 auto;
+    border:1px dashed #3e66a5;
+
+}
+
+.todo .button{
+    width:300px;
+    margin-bottom:20px;
+    border:1px solid black;
+    border-radius: 10px;
+    height: 30px;
+    font-size:150%;
+    cursor: pointer;
+}
+
+.todo .button:hover{
+    background-color: #b7cff7;
+}
+
+.todo .buutton:active{
+    background-color: #e5eefc;
+}
+
+.todo .todos{
+    color:white;
+}
+
+.todo .column{
+    display:block;
+    width:500px;
+    margin:0 auto;
+    background-color: white;
+    height:30px;
+    border-bottom:3px solid black;
+    text-align: left;
+    font-size:150%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#4286f4;
+}
+
+.todo .column:last-child{
+    display:block;
+    width:500px;
+    margin:0 auto;
+    margin-bottom:20px;
+    background-color: white;
+    height:30px;
+    border-bottom:2px solid black;
+    text-align: left;
+    font-size:150%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+label{
+    width:100%;
+    display:block;
+    cursor: pointer;
+}
+
+label:hover{
+    color:white;
+    background: #136cf9;
+}
